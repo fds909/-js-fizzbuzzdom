@@ -38,3 +38,16 @@ h1 {
     text-align: center;
     line-height: 100px;
 }
+
+/* Milestone 3 classes */
+.green {
+    background-color: #0bd6a1;
+}
+
+.yellow {
+    background-color: #ffd166;
+}
+
+.red {
+    background-color: #f0466f;
+}

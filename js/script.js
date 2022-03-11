@@ -16,13 +16,13 @@ let container = document.querySelector(".item-container");
 for (let i=1; i<=100; i++) {
 
     if ( (i % 3 == 0) && (i % 5 == 0)) {
-        container.innerHTML += `<div class="item">FizzBuzz</div>`;
+        container.innerHTML += `<div class="item red">FizzBuzz</div>`;
         console.log("FizzBuzz");
     } else if (i % 3 == 0) {
-        container.innerHTML += `<div class="item">Fizz</div>`;
+        container.innerHTML += `<div class="item green">Fizz</div>`;
         console.log("Fizz");
     } else if (i % 5 == 0) {
-        container.innerHTML += `<div class="item">Buzz</div>`;
+        container.innerHTML += `<div class="item yellow">Buzz</div>`;
         console.log("Buzz");
     } else {
         container.innerHTML += `<div class="item">${i}</div>`;
