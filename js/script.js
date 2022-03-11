@@ -11,17 +11,22 @@
     per i multipli di 5 e per i valori che sono sia multipli di 3 che di 5.
 */
 
+let container = document.querySelector(".item-container");
+
 for (let i=1; i<=100; i++) {
 
     if ( (i % 3 == 0) && (i % 5 == 0)) {
+        container.innerHTML += `<div class="item">FizzBuzz</div>`;
         console.log("FizzBuzz");
     } else if (i % 3 == 0) {
+        container.innerHTML += `<div class="item">Fizz</div>`;
         console.log("Fizz");
     } else if (i % 5 == 0) {
+        container.innerHTML += `<div class="item">Buzz</div>`;
         console.log("Buzz");
     } else {
+        container.innerHTML += `<div class="item">${i}</div>`;
         console.log(i);
     }
-
 
 }
